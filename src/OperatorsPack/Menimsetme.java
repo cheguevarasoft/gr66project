@@ -1,0 +1,19 @@
+package OperatorsPack;
+
+import java.util.Scanner;
+
+public class Menimsetme {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("birinci deyeri daxil edin");
+        int a = sc.nextInt();
+        System.out.println("ikinci deyeri daxil edin");
+        int b = sc.nextInt();
+
+         a =  a%b;
+
+        System.out.println("cavabi  : " + a);
+    }
+
+}
